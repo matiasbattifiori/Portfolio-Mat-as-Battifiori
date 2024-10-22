@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+   
+}
+
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*-----NAV---------------------------------------------------------------------------------*/
+nav{
+    position: fixed; 
+    z-index: 50;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ 
+.Navegador{    
+    padding: 50px;
+}
+
+.Navegador>a{
+    padding: 15px;  
+    text-decoration: none;
+    color: white;
+    background-color: #7c7c78;   
+    border-radius: 50px;
+    background-size: 50%;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    font-weight: 530;
+    transition: all 1s;    
+}
+
+.Navegador>a:hover{
+   font-size: 110%;
+    background-color: #424240;   
+     
+}
+
+
+/*-----HEADER---------------------------------------------------------------------------------*/
+
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+   
+}
+
+h1{
+    position: absolute; 
+    top: 100px;
+    font-family: "Neuton", serif;
+    font-size: 90px;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffee;
+    text-shadow: rgb(53, 53, 53) 1px 0 10px;
+    
+}
+
+
+.Tanimador{
+    position: absolute;
+    top: 31%;
+    font-size: 70px;
+    font-weight: 550;
+    font-family: "Neuton", serif;
+    color: #ffffee;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    opacity: 0;
+    animation: TextoAparece 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;   
+}
+
+
+.TFront{
+    position: absolute;
+    top: 31%;
+    font-size: 70px;
+    font-weight: 550;
+    Font-family: "Neuton", serif;
+    color: #ffffee;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    opacity: 0;
+    animation: TextoAparece 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;   
+}
+    
+
+.Lista{
+    position: relative;
+    top: 50%;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffee;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    opacity: 0;
+    animation: TextoAparece 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;   
+}
+
+.Lista2{
+    position: relative;
+    top: 50%;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffee;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    opacity: 0;
+    animation: TextoAparece 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;   
+}
+
+
+#Animator{
+    background-image: url(./ANIMATION.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+#FrontEnd{
+    background-image: url(./CODIGO.jpg);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-size: cover;
+    
+    
+}
+
+
+/*-----ABOUT ME---------------------------------------------------------------------------------*/
+.TAboutme{
+    position: relative;
+    top: 300px;
+    left: 10%;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all;
+    animation-name: Slide-In-Out 0.5s;
+}
+
+.PAboutme{
+    max-width: 900px;
+    position: absolute;
+    font-size: 25px;    
+    font-weight: 400;
+    left: 10%;
+}
+
+.MOTION{
+    position: absolute;
+    left: 63%;    
+    height: 790px;
+    box-shadow: 0px 0px 30px #7c7c78;
+}
+
+/*-----VIDEO EDITING---------------------------------------------------------------------------------*/
+.TVideo{
+    position: relative;
+    top: 300px;
+    left: 72%;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    line-height: 1;
+    max-width: min-content; 
+    color: #ffffee;
+}
+
+#PEditing{
+    position: relative;
+}
+
+#TextoVideo{
+    max-width: 700px;
+    position: relative;
+    font-size: 25px;    
+    font-weight: 500;
+    text-align: right;
+    left: 35%;
+    bottom: 70px;
+    color: #ffffee;
+}
+
+.QSMedia{
+    position: relative;
+    top: 74px;
+}
+
+.QSMedia>h4{
+    text-decoration: underline;    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-size: 25px;
+}
+
+.QSMedia>p{
+    position: relative;
+    font-size: 30px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 10px;
+    color: #ffffee;
+    text-decoration: none;
+}
+
+.QSMedia>a{
+    position: relative;
+    font-size: 30px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 10px;
+    color: #ffffee;
+    text-decoration: none;
+}
+
+.QSMedia>a>img{
+    position: relative;
+    width: 30px;
+    top: 5px;
+}
+
+.Editing{
+    position: absolute;
+    height: 820px;
+    right: 65.7%;
+    box-shadow: 0px 0px 30px #7c7c78;
+}
+
+
+/*-----3D---------------------------------------------------------------------------------*/
+.T3D{
+    position: relative;
+    top: 550px;
+    left: 10%;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: min-content;
+    line-height: 1;
+}
+
+.P3D{
+    max-width: 800px;    
+    position: relative;
+    left: 10%;
+    top: 30px;
+}
+
+.P3D>h4{
+    text-decoration: underline;    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    font-size: 30px;
+}
+
+.P3D>p{
+    position: relative;
+    font-size: 30px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 10px;
+}
+
+.FARMEES{
+    position: absolute;
+    left: 53.3%;    
+    height: 360px;
+    top: 500px;    
+    box-shadow: 0px 0px 30px #7c7c78;     
+}
+
+.Carrusel{
+    width: 550px;
+    height: 444px;
+    border: 2px solid black;
+    position: absolute;
+    left: 58%;
+    bottom: 450px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px #7c7c78;    
+}
+
+.Carrusel>ul{
+   display: flex;
+   list-style: none;
+   width: 400%;
+   animation: MoverCarrousel 12s alternate infinite ease-in-out;
+   overflow: hidden;
+   
+}
+
+.Carrusel>ul>li{
+    width: 550px
+}
+
+.Carrusel>ul>li>img{
+    width: 100%
+}
+
+
+/*-----FOOTER---------------------------------------------------------------------------------*/
+
+
+.Contactos{    
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Contactos>a{
+    padding: 15px;  
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffee;   
+    border-radius: 5px;
+    background-size: 50%;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    font-weight: 600;
+    transition: all 1s;
+    box-shadow: 0px 0px 30px #7c7c78;    
+}
+
+.Contactos>a:hover{
+   font-size: 110%;
+   background-color: #ccccb4;
+   box-shadow: 0px 0px 50px #7c7c78;   
+}
+
+/*--------FONDOS---------------------s---------------------------------------------------------*/
+
+
+#SectorCarrera{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#Aboutme{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #ffffee;
+    
+}
+
+#Videoediting{
+    background-color: rgb(8, 8, 5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+#Sector3D{
+    background-color:#ffffee;
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+}
+    
+footer{
+    background-color: rgb(8, 8, 5);
+    width: 100%;
+}
+
+
+
+
+/*---------REDES-----------------------------------------------------------------------------*/
+
+#Linkedin{
+    position: fixed;
+    width: 50px;
+    right: 20px;  
+    bottom: 20px;
+}
+
+#Instagram{
+    position: fixed;
+    width: 50px;
+    bottom: 90px;
+    right: 20px;
+}
+
+
+
+@keyframes TextoAparece{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;        
+        transform: translateY(10px);
+    }
+}
+
+@keyframes MoverCarrousel{
+    0%{
+        transform: translate(0);
+    }
+    14.3%{
+        transform: translate(0);
+    }
+    28.6%{
+        transform: translate(-546px);
+    }
+    42.9%{
+        transform: translate(-546px);
+    }
+    57.2%{
+        transform: translate(-1092px);
+    }
+    71.6%{
+        transform: translate(-1092px);
+    }
+    85.9%{
+        transform: translate(-1638px);
+    }
+    100%{
+        transform: translate(-1638px);
+    }
+}
+
+
+
+@media (max-width:800px) {
+    nav{
+        position: fixed; 
+        z-index: 50;
+        left: 15.5%;
+        transform: translateX(-0%);
+    }
+     
+    .Navegador{    
+        padding: 50px;
+    }
+
+    .Navegador>a{
+        font-size: 15px;
+        padding: 15px;  
+    }
+   
+    h1{
+        font-size: 60px;
+    }
+    .Tanimador{
+        scale: 80%;
+        top: 30%;
+    }
+    .TFront{
+        scale: 80%;
+        top: 24%;
+    }
+    .Lista{
+        scale: 80%;
+        padding: 0%;
+        top: 35%;
+    }
+
+    .Lista2{
+        scale: 80%;
+        padding: 0%;
+        top: 35%;
+    }
+
+    #Animator{
+        gap: 0;
+        background-position: -200px;
+    }
+
+    #FrontEnd{
+        gap: 0;
+    }
+    
+    
+    .TAboutme{
+        font-size: 70px;
+        left: 5%;   
+        top: 220px;
+    }
+    .PAboutme{
+        font-size: 20px;
+        left: 5%;
+        max-width: 50%;
+        
+    }
+    
+    .MOTION{       
+        scale: 70%;
+        left: 50%;
+        
+    }
+
+    
+    .TVideo{
+        scale: 80%;
+        left: 65%;
+        top: 230px;       
+    }    
+    #TextoVideo{    
+        font-size: 20px;
+        left: 16%;
+        max-width: 45%;
+        bottom: 100px;
+    }
+    .Editing{       
+        scale: 70%;
+        right: 46%;
+    }
+
+    .T3D{
+        scale: 80%;
+        left: 0%;
+        top: 450px;    
+    } 
+   
+    .P3D{
+        scale: 90%;
+        top: -70px;        
+        left: 3%;
+        max-width: 50%;    
+    }
+    
+    .Carrusel{       
+        scale: 60%;
+        left: 42.3%;
+        top: 20px;
+    }
+        
+    .FARMEES{       
+        scale: 53%;
+        left: 36.3%;
+        top: 425px;
+    } 
+    
+    .Contactos{
+        scale: 90%;
+    }
+         
+
+}
+
+
+
+@media (max-width:500px) {
+    nav{       
+        left: 0;
+        transform: translateX(-0%);
+    }     
+    .Navegador{    
+        padding: 50px;
+    }
+    .Navegador>a{
+        font-size: 12px;
+        padding: 15px;  
+    }
+    
+   
+    h1{
+        font-size: 40px;
+    }
+    .Tanimador{
+        scale: 50%;
+        top: 20%;
+    }
+    .TFront{
+        scale: 40%;
+        top: 15%;
+    }
+    .Lista{
+        scale: 60%;       
+        top: 15%;
+    }
+    .Lista2{
+        scale: 60%;       
+        top: 15%;
+    }
+
+    #Animator{
+        background-position: -400px;
+    }
+
+    
+    
+    .TAboutme{
+        top: 35%;
+        left: 3%;
+    }
+    .PAboutme{
+        font-size: 15px;
+        left: 3%;
+        max-width: 45%;        
+    }
+    .MOTION{       
+        scale: 50%;
+        left: 28%;
+        
+    }
+
+    
+
+    .TVideo{
+        scale: 80%;
+        left: 45%;
+        top: 320px;       
+    }
+    #TextoVideo{    
+        font-size: 15px;
+        left: 0%;
+        max-width: 45%;
+        bottom: 100px;
+    }
+    #TextoVideo>p{    
+        top: 0px;
+    }
+    .PEditing{
+        translate: 0px 100px;
+        max-width: 90%;
+    }
+    .QSMedia{   
+        top: 155px;
+        scale: 75%;
+    }
+    .Editing{       
+        scale: 50%;
+        right: 27%;
+    }
+
+
+
+    .T3D{
+        scale: 80%;        
+        top: 500px;
+        transform: translate(-20px);    
+    }    
+    .P3D{
+        scale: 80%;
+        top: -150px;        
+        left: 0%;
+        max-width: 50%;    
+    }
+    .Carrusel{       
+        scale: 38%;
+        left: 19%;
+        top: 20px;
+    }        
+    .FARMEES{       
+        scale: 37%;
+        left: 7%;
+        top: 300px;
+
+    }     
+    .Contactos{
+        scale: 70%;
+    }
+}
