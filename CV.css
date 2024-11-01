@@ -134,7 +134,7 @@ h1{
 
 
 #Animator{
-    background-image: url(./ANIMATION.jpg) ;
+    background-image: url(../CV/IMAGENES/ANIMATION.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -146,7 +146,7 @@ h1{
 }
 
 #FrontEnd{
-    background-image: url(./CODIGO.jpg);
+    background-image: url(../CV/IMAGENES/CODIGO.jpg);
     width: 50%;
     height: 100vh;
     display: flex;
