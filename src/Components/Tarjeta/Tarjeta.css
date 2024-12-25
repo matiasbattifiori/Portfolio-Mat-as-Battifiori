@@ -1,0 +1,36 @@
+.tarjeta{
+    height: 480px;
+    margin: 8px;
+    padding: 8px;
+    width: fit-content;
+    background-color: #223142;
+    justify-content: center;
+    
+}
+
+.limitarTamaño{
+    width: 270px;
+}
+
+.btn-tarjeta{
+    color: #344D67;
+    background-color: #6ECCAF;
+    font-weight: 500;
+    
+  
+    
+}
+
+.titulos-characters{
+    color:#6ECCAF;
+    margin: 8px;
+}
+
+.imagen-tarjeta{
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 5px;
+    vertical-align: middle;
+}

@@ -1,0 +1,47 @@
+.icono-hamburguesa{
+    height: 40px !important;
+}
+
+.form{
+    display: none;
+}
+
+.Error-404{
+    background-color: #6eccaf!important;
+   
+}
+
+.bg{
+    background-color: #31475f;
+}
+
+.texto-filter{
+    margin: 4px;
+}
+
+.boton-filter{
+    height: 100px!important;
+}
+
+.subtitulo{
+    display: flex;
+}
+
+@media(min-width:720px){
+    .mobileFilters{
+        display: none!important;  
+          
+    }
+
+    .form{
+        display: flex!important;
+        
+    }
+
+    .subtitulo{
+        display: none!important;
+    }
+    
+}
+
+

@@ -1,0 +1,47 @@
+
+.container-contact{
+    background-color: rgba(92, 117, 146, .9)!important;
+    height: 707px;
+    margin-top: 48px;
+    width: 1121px;
+    gap: 20px;
+    display: grid!important;
+      
+ 
+}
+
+.contenedor-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 360px 360px;
+}
+
+.titulo1{
+    margin-bottom: 50px;
+    margin-top: 35px;
+    color: #223142;
+    font-size: 2rem;
+    
+}
+
+.titulo2{
+    margin-top: 30px;
+    color: #223142;
+    font-size: 1.75rem;
+    
+}
+
+.input-text{
+    width: 362px;
+ 
+}
+
+.messege{
+    width: 740px;
+    height: 300px;
+}
+
+.boton-submit{
+    width: 80px;
+    margin-top: 10px;
+}
